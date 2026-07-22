@@ -1,57 +1,49 @@
-# 🧠 NeetCode Submissions — @ibrahim0enes
+# NeetCode Submissions
 
 <p align="center">
-  <img src="https://img.shields.io/badge/dil-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/kaynak-NeetCode.io-1f2937?style=flat-square" />
-  <img src="https://img.shields.io/badge/çözülen%20problem-5-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/senkron-otomatik-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/language-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/platform-NeetCode.io-1f2937?style=flat-square" />
+  <img src="https://img.shields.io/badge/sync-automatic-blue?style=flat-square" />
 </p>
 
 <p align="center">
-  <a href="https://neetcode.io">NeetCode.io</a> üzerinde çözdüğüm coding interview problemlerinin C++ ile yazılmış çözümleri.<br/>
-  Bu repo, NeetCode'un GitHub Sync özelliğiyle her gönderimde otomatik olarak güncelleniyor.
+  A personal archive of solved <a href="https://neetcode.io">NeetCode.io</a> coding interview problems, kept up to date automatically via NeetCode's GitHub Sync integration.
 </p>
 
 ---
 
-## 📌 Bu repo ne işe yarıyor?
+## Overview
 
-Bu repo, [NeetCode.io](https://neetcode.io) platformunda çözdüğüm algoritma ve veri yapısı problemlerinin gönderimlerini tutuyor. Bir problemi çözüp gönderdiğimde ilgili klasöre otomatik olarak commit ediliyor — yani burada gördüğün geçmiş, gerçek çözüm sürecimin bir kaydı, sadece "temiz" son hâller değil.
+This repository contains my submitted solutions to problems from [NeetCode.io](https://neetcode.io), a coding interview preparation platform offering curated problems, video walkthroughs, and an in-browser editor. Each submission is pushed here automatically, so the repository reflects an ongoing practice log rather than a fixed, curated portfolio.
 
-## 📊 İlerleme
+## Repository Structure
 
-| Kategori | Problem | Zorluk | Çözüm | NeetCode |
-|---|---|:---:|:---:|:---:|
-| Arrays & Hashing | Contains Duplicate | 🟢 Easy | [C++](https://github.com/ibrahim0enes/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/duplicate-integer) | [↗](https://neetcode.io/problems/duplicate-integer) |
-| Arrays & Hashing | Valid Anagram | 🟢 Easy | [C++](https://github.com/ibrahim0enes/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/is-anagram) | [↗](https://neetcode.io/problems/is-anagram) |
-| Arrays & Hashing | Two Sum | 🟢 Easy | [C++](https://github.com/ibrahim0enes/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/two-integer-sum) | [↗](https://neetcode.io/problems/two-integer-sum) |
-| Arrays & Hashing | Group Anagrams | 🟡 Medium | [C++](https://github.com/ibrahim0enes/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/anagram-groups) | [↗](https://neetcode.io/problems/anagram-groups) |
-| Arrays & Hashing | Top K Frequent Elements | 🟡 Medium | [C++](https://github.com/ibrahim0enes/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/top-k-elements-in-list) | [↗](https://neetcode.io/problems/top-k-elements-in-list) |
-
-> 🟢 Easy · 🟡 Medium · 🔴 Hard — şu ana kadar **5 problem** çözüldü, hepsi **Arrays & Hashing** kategorisinde.
-
-## 🗂️ Klasör yapısı
-
-Çözümler kategoriye, sonra problem kimliğine göre gruplanıyor. Her gönderim ayrı bir dosyada tutuluyor:
+Solutions are organized by topic, then by problem, then by individual submission:
 
 ```
-Data Structures & Algorithms/
+<topic>/
 └── <problem-id>/
-    ├── submission-0.cpp   ← ilk gönderim
-    ├── submission-1.cpp   ← sonraki iyileştirme
+    ├── submission-0.<ext>   # first attempt
+    ├── submission-1.<ext>   # refined or optimized version
     └── ...
 ```
 
-Bir problem klasöründe birden fazla `submission-N.cpp` görmen normal — her biri o problem üzerinde attığım farklı bir adımı (ilk kaba çözüm → optimize edilmiş versiyon) temsil ediyor.
+Multiple `submission-N` files under a single problem are expected. Each one represents an iteration on that problem — typically progressing from an initial working solution toward a more optimal one.
 
-## ⚙️ Nasıl güncelleniyor?
+## Sync Mechanism
 
-Bu repo [NeetCode GitHub Sync](https://neetcode.io/profile/github) entegrasyonuyla bağlı. Bir problemi NeetCode üzerinde çözdüğümde çözüm otomatik olarak buraya push ediliyor; ayarlardan geçmiş gönderimleri toplu hâlde senkronize etmek de mümkün.
+This repository is connected to [NeetCode's GitHub Sync](https://neetcode.io/profile/github), which supports:
 
-## 🛠️ Kullanılan dil
+- **Auto-commit** — submissions are pushed automatically as they are made (accepted-only or all, depending on configuration)
+- **Bulk sync** — past solutions can be pushed in bulk at any time
+- **Manual sync** — individual submissions can be synced or removed from a problem's submission history
 
-![C++](https://img.shields.io/badge/-100%25-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+As a result, the contents of this repository change frequently. This README intentionally avoids listing specific problems, categories, or counts, since any such list would become outdated almost immediately.
+
+## Purpose
+
+This repository serves as a continuous practice log for algorithmic problem-solving, primarily covering Data Structures & Algorithms, with C++ as the main implementation language.
 
 ---
 
-<p align="center"><sub>Aktif olarak güncelleniyor — yeni problemler çözüldükçe tablo büyüyecek. 🚀</sub></p>
+<p align="center"><sub>Content updates automatically as new problems are solved.</sub></p>
